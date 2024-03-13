@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="response.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Shop Online</title>
+</head>
+
+<body>
+    <header>
+        <div id="headWrapper">
+            <div id="header">
+                <img id="logo" src="./assets/shopping-bag.png" alt="">
+                <div id="headerText">Your Online Shopping Solution!</div>
+                <img id="search" src="/assets/search.png" alt="">
+                <img id="user" src="./assets/user.png" alt="">
+            </div>
+            <div id="navBar">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div id="sideNav">
+            <div class="navItems1" id="Options">Options:</div>
+            <div class="navItems" id="Type" onclick="filterClick(this)">Type
+                <div class="visibleContainer disappear">
+                    <div id="typeContainer">
+                        <div>
+                            <input type="radio" value="off" onchange="typeToggle(this)" name="type" id="type0" checked>
+                            <label for="type1">All</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="off" onchange="typeToggle(this)" name="type" id="type1">
+                            <label for="type1">Gaming</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="off" onchange="typeToggle(this)" name="type" id="type2">
+                            <label for="type2">Office</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navItems" id="Brand" onclick="filterClick(this)">Brand
+                <div class="visibleContainer disappear">
+                    <div id="typeContainer">
+                        <div>
+                            <input type="radio" value="off" onchange="brandToggle(this)" name="brand" id="brand0" checked>
+                            <label for="type1">All</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="off" onchange="brandToggle(this)"  name="brand" id="brand1">
+                            <label for="type1">Asus</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="off" onchange="brandToggle(this)" name="brand" id="brand2">
+                            <label for="type2">Dell</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="off" onchange="brandToggle(this)" name="brand" id="brand3">
+                            <label for="type2">Hp</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="off" onchange="brandToggle(this)" name="brand" id="brand4">
+                            <label for="type2">Lenovo</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="productList">
+            <div id="productWrapper">
+                <div class="gridElement">
+                    <img class="ProductImage" src="#" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+                <div class="gridElement">
+                    <img class="ProductImage" src="" alt="">
+                    <div class="innerText"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="prscript.js"></script>
+<script src="click.js"></script>
+
+</html>

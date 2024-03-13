@@ -1,0 +1,59 @@
+@media only screen and (orientation: portrait) {
+    #productWrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6 ,38vw);
+
+    }
+    #sideNav{
+        width: 30vw;
+    }
+    .innerText{
+        font-size: 3vw;
+    }
+    .navItems{
+        font-size: 3.5vw;
+    }
+    .navItems1{
+        font-size: 3.5vw;
+    }
+}
+@media screen and (max-width: 60vh) {
+    #main{
+        flex-direction: column;
+        align-items: center;
+        gap: 2%;
+    }
+    #sideNav{
+        flex-direction: row;
+        width: 88vw;
+        align-items: start;
+    }
+    #productList{
+        width: 88vw;
+    }
+    #productWrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat( 6 , 50vw);
+    }
+    .navItems{
+        font-size: 5vw;
+    }
+    .navItems1{
+        font-size: 5vw;
+    }
+    .navItems1{
+        margin-bottom: 0;
+    }
+    #Options{
+        display: none;
+    }
+    .innerText{
+        padding-top: 5%;
+        padding-bottom: 2%;
+        font-size: 4.5vw;
+    }
+    #headerText{
+        padding: 2%;
+        font-size: 5vw;
+    }
+}

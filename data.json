@@ -1,0 +1,52 @@
+{
+    "Products": [
+        {
+            "src": "./assets/productImage/AsROG.jpg",
+            "name": "Asus ROG"
+        },
+        {
+            "src": "./assets/productImage/AsViv15.webp",
+            "name": "Asus Vivobook 15"
+        },
+        {
+            "src": "./assets/productImage/AsZen.jpg",
+            "name": "Asus Zenbook"
+        },
+        {
+            "src": "./assets/productImage/D14.webp",
+            "name": "Dell 14"
+        },
+        {
+            "src": "./assets/productImage/D15.webp",
+            "name": "Dell 15"
+        },
+        {
+            "src": "./assets/productImage/Dg15.webp",
+            "name": "Dell G15"
+        },
+        {
+            "src": "./assets/productImage/Hp15.jpg",
+            "name": "HP Laptop 15"
+        },
+        {
+            "src": "./assets/productImage/HpOmen.webp",
+            "name": "HP Omen"
+        },
+        {
+            "src": "./assets/productImage/HpVic.webp",
+            "name": "HP Victus"
+        },
+        {
+            "src": "./assets/productImage/LenId3.jpg",
+            "name": "Lenovo Ideapad 3"
+        },
+        {
+            "src": "./assets/productImage/LenLeg5Pr.jpg",
+            "name": "Lenovo Legion 5 Pro"
+        },
+        {
+            "src": "./assets/productImage/LenThinke14.jpg",
+            "name": "Lenovo Thinkpad E14"
+        }
+    ]
+}
